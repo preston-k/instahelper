@@ -1,0 +1,12 @@
+body {
+  font-family: 'Poppins';
+}
+.follower-div {
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.follower-div-head {
+  text-align: center;
+}
