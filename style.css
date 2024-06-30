@@ -13,9 +13,12 @@ body {
 }
 .following-div-head {
   width: max-content;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 .username-h3-link {
   color: blue;
+  width: max-content;
 }
 #following-count {
   display: flex;
@@ -40,4 +43,10 @@ body {
   position: absolute;
   left: 0;
   overflow-y: scroll;
+}
+.firstIcon {
+  width: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
