@@ -1,12 +1,43 @@
 body {
   font-family: 'Poppins';
 }
-.follower-div {
-  width: 80%;
+.following-div {
+  width: 85vw;
   border: 2px solid black;
   border-radius: 10px;
   padding: 10px;
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.follower-div-head {
-  text-align: center;
+.following-div-head {
+  width: max-content;
+}
+.username-h3-link {
+  color: blue;
+}
+#following-count {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#following-sortby {
+  width: 100px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+}
+#following-sortby-now {
+  font-size: 12px;
+}
+#following-count-wrapper {
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  overflow-y: scroll;
 }
